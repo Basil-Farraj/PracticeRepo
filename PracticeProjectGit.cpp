@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+using namespace std;
+
+void Print()
+{
+    cout << "\nHello This is My First Update ";
+}
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+    Print();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
